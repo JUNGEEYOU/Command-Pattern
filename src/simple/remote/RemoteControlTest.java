@@ -1,4 +1,4 @@
-package remote;
+package simple.remote;
 
 public class RemoteControlTest {
 

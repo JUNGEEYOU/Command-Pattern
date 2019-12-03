@@ -1,4 +1,4 @@
-package remote;
+package macro;
 
 public class Light {
     String location = "";

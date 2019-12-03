@@ -1,4 +1,4 @@
-package remote;
+package undo2;
 
 public class Light {
     String location = "";

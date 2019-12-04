@@ -1,12 +1,12 @@
 package macro;
 
 // 1. RemoteControl: 인보커 역할로 리모컨에 해당(웨이터) > 커맨드를 세팅, 캡슐화된 커맨드 행동을 실행시킴
-public class RemoteControlWithUndo {
+public class RemoteControl {
     Command[] onCommands;
     Command[] offCommands;
     Command undoCommand;    // undo로 인한 마지막으로 사용한 커맨드 캑체 넣기
 
-    public RemoteControlWithUndo(){
+    public RemoteControl(){
         onCommands = new Command[7];
         offCommands = new Command[7];
 
